@@ -39,7 +39,7 @@ public class SampleRequest {
 	    public void SampleDemorestAssuredTest() {
 	 		System.out.println("Started restAssuredTestSampleDemo from here");
 	 		RestAssured.baseURI = "https://test1-lmbc-empr-mlc-tds-service.us-east-1.np.paas.lmig.com/services/v1/tds";
-        	RequestSpecification httpRequest = RestAssured.given().auth().basic("n0259443", "Badvel@1");
+        	RequestSpecification httpRequest = RestAssured.given().auth().basic("<Userame>", "<password>");
         	Response response = httpRequest.get("/all");
          
         	// Retrieve the body of the Response
