@@ -18,7 +18,7 @@ public class SampleRequest {
 	    public void restAssuredTestBDDFramwork() {
 		 System.out.println("Started restAssuredTestBDDFramwork from here");
 	       
-		  given().auth().basic("n0259443", "Badvel@1").
+		  given().auth().basic("###Username####", "&&&&Passsword&&&&").
 	            when().
 	            	get("https://test1-lmbc-empr-mlc-tds-service.us-east-1.np.paas.lmig.com/services/v1/tds/all").
 	            then().
